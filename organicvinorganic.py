@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 # Sidebar navigation
-page = st.sidebar.radio("Navigation", ["Home", "Resource Guide", "Digital Media"])
+page = st.sidebar.radio("Navigation", ["Home", "Resource Guide"])
 
 # ==========================================
 # PAGE 1: HOME
@@ -278,9 +278,6 @@ elif page == "Resource Guide":
     st.info("💡 Remember: Science is an ongoing process. New evidence may strengthen, weaken, or nuance our current understanding of any topic.")
 
 # Footer for both pages
-elif page == "Digital Media":
-    st.title("Organic Foods Digital Media")
-    st.header("Price Comparison Infographic")
-    st.pdf("Infographic.pdf")
 st.markdown("---")
 st.caption("English 1101 Group Project | Organic vs Conventional Food Analysis")
+
