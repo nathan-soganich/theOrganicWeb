@@ -64,9 +64,9 @@ if page == "Home":
     st.markdown("---")
     
     # Our Data: Frequency of Buying Organic
-    st.header("📊 Our Data: How Often Students Buy Organic")
+    st.header("📊 How Often do Students Buy Organic")
     st.write("""
-    We surveyed college students to understand their organic food purchasing habits. 
+    We found survey data from college students to understand their organic food purchasing habits. 
     The majority of students buy organic food monthly, with smaller groups purchasing 
     weekly, daily, or every six months.
     """)
@@ -77,7 +77,7 @@ if page == "Home":
     st.markdown("---")
     
     # Our Data: Share of Groceries that are Organic
-    st.header("🥗 Our Data: What Share of Groceries Are Organic")
+    st.header("🥗 What Share of Groceries Are Organic")
     st.write("""
     Most students (62%) buy some organic products, but they represent only 1-25% of their 
     total groceries. This suggests that while students are interested in organic options, 
@@ -280,4 +280,5 @@ elif page == "Resource Guide":
 # Footer for both pages
 st.markdown("---")
 st.caption("English 1101 Group Project | Organic vs Conventional Food Analysis")
+
 
